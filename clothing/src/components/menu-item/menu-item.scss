@@ -8,6 +8,7 @@
     border: 1px solid rgb(253, 253, 253);
     margin: 0 7.5px 15px;
     overflow: hidden;
+    color: blanchedalmond;
     &:hover {
         cursor: pointer;
         & .background-image {
@@ -48,7 +49,7 @@
             font-weight: bold;
             margin: 0 6px 0;
             font-size: 22px;
-            color: #9e9b9b;
+            color: #f5f1f1;
         }
         .subtitle {
             font-weight: lighter;

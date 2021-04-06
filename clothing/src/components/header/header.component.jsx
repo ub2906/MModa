@@ -13,22 +13,18 @@ const Header = () => ( <
     <
     Logo className = "logo" / >
     <
-    /Link> <
+    /Link>  <
     div className = "options" >
     <
     Link className = "option"
-    to = "/shop" >
-    SHOP <
-    /Link> <
+    to = "/shop" > SHOP < /Link>  <
     Link className = "option"
-    to = "/tagboard" >
-    TAGBOARD <
-    /Link> <
+    to = "/tagboard" > TAGBOARD < /Link>  <
     Link className = "option"
-    to = "/signIn" >
-    SIGN IN <
-    /Link> <
-    /div> <
+    to = "/tagboard" > VIRTUAL MODA < /Link>  <
+    Link className = "option"
+    to = "/signIn" > SIGN IN FOR MODA PARTY < /Link>  < /
+    div > <
     /div>
 )
 
