@@ -25,15 +25,15 @@
 
 body {
     font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #515158;
-    background: #f0f0f0;
+    color: #09093f;
+    background: #94d6f0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 a {
     text-decoration: none;
-    color: #aaa;
+    color: rgba(170, 170, 170, 0.658);
     outline: none;
 }
 
@@ -493,7 +493,7 @@ button:focus {
 }
 
 .map__space--selected {
-    fill: #A4A4A4;
+    fill: #583c3c;
 }
 
 
@@ -588,7 +588,7 @@ button:focus {
 .content__meta-item {
     display: inline-block;
     padding: 0 0.25em;
-    color: ;
+    color: #3d1975;
 }
 
 .content__meta .icon {
@@ -597,7 +597,7 @@ button:focus {
 }
 
 .content__desc {
-    text-align: left;
+    text-align: middle;
     margin: 7vmin 0 0 0;
 }
 
@@ -642,7 +642,7 @@ button:focus {
     padding: 1.315em 2em;
     color: #fff;
     border: 0;
-    background: #515158;
+    background: #2a2acf;
     border-radius: 0;
 }
 
@@ -719,7 +719,7 @@ button:focus {
     position: absolute;
     top: -1.75em;
     left: 0;
-    color: #c7c7c9;
+    color: #1b1bd8;
 }
 
 .grouped-by-category [data-category='1']:first-child::before,
@@ -755,7 +755,7 @@ button:focus {
     right: 0;
     padding: 0 0.5em;
     pointer-events: none;
-    color: #c7c7c9;
+    color: #1b1b8f;
 }
 
 .list__link {
@@ -766,7 +766,7 @@ button:focus {
 
 .list__item--active .list__link,
 .list__link:hover {
-    color: #515158;
+    color: #3232b1;
 }
 
 
