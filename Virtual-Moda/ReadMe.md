@@ -19,3 +19,6 @@
 
 *Once selected the store appears in a highlighted manner with its location, key information , fun facts etc listed. Clicking on the link that appears would lead 
 the user to the base site where the products of that particular brand / category is locate and can be added to cart*
+
+### How to Run on Local Machine? ### 
+Simply click on the index.html file to view. Compatible with range of browsers - Chrome,Firefox, Safari . 
