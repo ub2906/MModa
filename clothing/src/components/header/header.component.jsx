@@ -21,7 +21,7 @@ const Header = () => ( <
     Link className = "option"
     to = "/tagboard" > TAGBOARD < /Link>  <
     Link className = "option"
-    to = "/tagboard" > VIRTUAL MODA < /Link>  <
+    to = "/virtual" > VIRTUAL MODA < /Link>  <
     Link className = "option"
     to = "/signIn" > SIGN IN FOR MODA PARTY < /Link>  < /
     div > <

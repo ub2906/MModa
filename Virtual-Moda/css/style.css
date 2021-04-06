@@ -26,7 +26,7 @@
 body {
     font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #09093f;
-    background: #94d6f0;
+    background: #000000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -492,7 +492,7 @@ button:focus {
 }
 
 .map__space--selected {
-    fill: #583c3c;
+    fill: #c05c22;
 }
 
 
@@ -587,7 +587,7 @@ button:focus {
 .content__meta-item {
     display: inline-block;
     padding: 0 0.25em;
-    color: #3d1975;
+    color: #cf9427;
 }
 
 .content__meta .icon {
@@ -641,7 +641,7 @@ button:focus {
     padding: 1.315em 2em;
     color: #fff;
     border: 0;
-    background: #2a2acf;
+    background: rgb(214, 104, 14);
     border-radius: 0;
 }
 
@@ -718,7 +718,7 @@ button:focus {
     position: absolute;
     top: -1.75em;
     left: 0;
-    color: #1b1bd8;
+    color: #d89c1b;
 }
 
 .grouped-by-category [data-category='1']:first-child::before,
@@ -754,7 +754,7 @@ button:focus {
     right: 0;
     padding: 0 0.5em;
     pointer-events: none;
-    color: #1b1b8f;
+    color: #c57d12;
 }
 
 .list__link {
@@ -765,7 +765,7 @@ button:focus {
 
 .list__item--active .list__link,
 .list__link:hover {
-    color: #3232b1;
+    color: #ac5b0f;
 }
 
 
