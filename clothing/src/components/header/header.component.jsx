@@ -17,11 +17,11 @@ const Header = () => ( <
     div className = "options" >
     <
     Link className = "option"
-    to = "/shop" > SHOP < /Link>   { /* <Link className = "option" to = "/tagboard" > TAGBOARD </Link>   */ } <
-    a href = "https://miro.com/app/dashboard/" > TAGBOARD < /a>   <
-    a href = "https://virtualmall.netlify.app/" > VIRTUAL MODA < /a>   <
+    to = "/shop" > SHOP < /Link>    <
+    a href = "https://miro.com/app/dashboard/" > TAGBOARD < /a>  &emsp;  <
+    a href = "https://virtualmall.netlify.app/" > VIRTUAL MODA < /a>    <
     Link className = "option"
-    to = "/signIn" > SIGN IN FOR MODA PARTY < /Link> <
+    to = "/signIn" > SIGN IN FOR MODA PARTY < /Link>  <
     /div>  <
     /div>
 )
