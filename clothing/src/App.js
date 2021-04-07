@@ -7,6 +7,7 @@ import Homepage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.components.jsx";
 import TagPage from "./pages/tagboard/tag.components.jsx";
 import HatPage from "./pages/hats/hats.components.jsx";
+import JacketPage from "./pages/jackets/jackets.components.jsx";
 import Header from "./components/header/header.component.jsx";
 import SignInAndSignUpPage from "./pages/sign-in/sign-in.component.jsx";
 
@@ -33,10 +34,13 @@ function App() {
         /> <
         Route path = "/tagboard"
         component = { TagPage }
+        /> <
+        Route path = "/jackets"
+        component = { JacketPage }
         />
 
         <
-        /switch> <
+        /switch>  <
         /div>
     );
 }
