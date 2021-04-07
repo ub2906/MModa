@@ -17,9 +17,8 @@ const Header = () => ( <
     div className = "options" >
     <
     Link className = "option"
-    to = "/shop" > SHOP < /Link>   <
-    Link className = "option"
-    to = "/tagboard" > TAGBOARD < /Link>   <
+    to = "/shop" > SHOP < /Link>   { /* <Link className = "option" to = "/tagboard" > TAGBOARD </Link>   */ } <
+    a href = "https://miro.com/app/dashboard/" > TAGBOARD < /a>   <
     a href = "https://virtualmall.netlify.app/" > VIRTUAL MODA < /a>   <
     Link className = "option"
     to = "/signIn" > SIGN IN FOR MODA PARTY < /Link> <
