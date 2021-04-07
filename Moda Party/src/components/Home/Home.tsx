@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
       <div className={styles.container}>
         <Hero
           heroText={'Experience Collaborative Shopping Experience.'}
-          subText={'Connect to directly Myntra Moda.'}
+          subText={'Connect directly to Myntra Moda.'}
           action={
             <div style={{ marginTop: '8px', width: '160px' }}>
               <NewRoomButton />
@@ -46,7 +46,7 @@ export const Home: React.FC = () => {
           <Feature
             icon="conversation"
             title="Chat"
-            text="Chat with others in your room"
+            text="Chat and shop together with others in your room"
           />
           <Feature
             icon="video"
@@ -84,10 +84,10 @@ export const Home: React.FC = () => {
               </Step>
 
               <Step>
-                <Icon name="film" />
+                <Icon name="slideshare" />
                 <Step.Content>
                   <Step.Title>3.</Step.Title>
-                  <Step.Description>Pick something to watch</Step.Description>
+                  <Step.Description>Explore the wonderful Shopping experience!</Step.Description>
                 </Step.Content>
               </Step>
 
