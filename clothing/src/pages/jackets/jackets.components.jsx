@@ -17,12 +17,11 @@ class JacketPage extends React.Component {
     render() {
         const { collections } = this.state;
         return <div className = "JacketPage" > {
-                collections.map(({ id, ...otherCollectionProps }) => ( <
-                    Pre_Collection key = { id } {...otherCollectionProps }
-                    />
-                ))
-            } <
-            /div>
+            collections.map(({ id, ...otherCollectionProps }) => ( <
+                Pre_Collection key = { id } {...otherCollectionProps }
+                />
+            ))
+        } < /div>
     }
 }
 

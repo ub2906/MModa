@@ -8,6 +8,7 @@ import ShopPage from "./pages/shop/shop.components.jsx";
 import TagPage from "./pages/tagboard/tag.components.jsx";
 import HatPage from "./pages/hats/hats.components.jsx";
 import JacketPage from "./pages/jackets/jackets.components.jsx";
+import SneakerPage from "./pages/sneakers/sneakers.components.jsx";
 import Header from "./components/header/header.component.jsx";
 import SignInAndSignUpPage from "./pages/sign-in/sign-in.component.jsx";
 
@@ -37,6 +38,9 @@ function App() {
         /> <
         Route path = "/jackets"
         component = { JacketPage }
+        /> <
+        Route path = "/sneakers"
+        component = { SneakerPage }
         />
 
         <

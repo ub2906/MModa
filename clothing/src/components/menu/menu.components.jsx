@@ -25,7 +25,7 @@ class Menu extends React.Component {
                     title: 'sneakers',
                     imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
                     id: 3,
-                    linkUrl: ""
+                    linkUrl: "sneakers"
                 },
                 {
                     title: 'H&M',
