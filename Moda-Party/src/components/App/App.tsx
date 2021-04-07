@@ -1661,7 +1661,7 @@ export default class App extends React.Component<AppProps, AppState> {
                               color="yellow"
                               icon="hand point up"
                               header="You're not watching anything!"
-                              content="Pick something to watch above."
+                              content="Explore the wonderful Shopping experience!"
                             />
                           )}
                           {!this.state.loading &&
