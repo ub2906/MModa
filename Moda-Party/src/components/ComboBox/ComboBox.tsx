@@ -73,9 +73,6 @@ export class ComboBox extends React.Component<ComboBoxProps> {
   };
 
   render() {
-   
-    return (
-   <div></div>
-    );
+    return <div></div>;
   }
 }

@@ -1587,8 +1587,6 @@ export default class App extends React.Component<AppProps, AppState> {
                       ></Dropdown>
                     )}
 
-
-
                     {Boolean(this.state.settings.mediaPath) && (
                       <SearchComponent
                         setMedia={this.setMedia}

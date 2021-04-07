@@ -232,7 +232,6 @@ export class TopBar extends React.Component<{
           }}
         >
           <a href="/" style={{ display: 'flex' }}>
-      
             <div
               style={{
                 display: 'flex',
@@ -270,10 +269,7 @@ export class TopBar extends React.Component<{
               marginLeft: '10px',
               alignItems: 'center',
             }}
-          >
-
-
-          </div>
+          ></div>
           <div
             style={{
               display: 'flex',
