@@ -13,6 +13,7 @@ import Header from "./components/header/header.component.jsx";
 import SignInAndSignUpPage from "./pages/sign-in/sign-in.component.jsx";
 
 
+
 function App() {
     return ( <
         div >
@@ -44,7 +45,7 @@ function App() {
         />
 
         <
-        /switch>  <
+        /switch>   <
         /div>
     );
 }
