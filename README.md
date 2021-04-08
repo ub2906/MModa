@@ -40,5 +40,5 @@ Our project consists of 4 subparts which are explained as follows
   - You can create separate rooms for friends
   - Interact not only via text but also voice and video to make it much more fun for the users
   - Share Screen with friends for shopping together and have a wholesome collaborative experience.
-  - Made using 
+  - Made using React,TypeScript,Node.js,Redis (to be implemented),Docker(to be implemented)
   - Code can be found in the *Moda-Party* folder in repository
