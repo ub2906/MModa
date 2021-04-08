@@ -2,6 +2,8 @@ import React from 'react';
 import { Divider, Header, Icon, Step } from 'semantic-ui-react';
 
 import { NewRoomButton } from '../TopBar';
+import { TagBoardButton } from '../TopBar';
+
 import styles from './Home.module.css';
 
 export const Home: React.FC = () => {
@@ -10,13 +12,13 @@ export const Home: React.FC = () => {
       <div className={styles.container}>
         <Hero
           heroText={'Experience Collaborative Shopping Experience.'}
-          subText={'Connect directly to Myntra Moda.'}
+          subText={'Connect directly to your friends TagBoard.'}
           action={
             <div style={{ marginTop: '8px', width: '160px' }}>
-              <NewRoomButton />
+              <TagBoardButton />
             </div>
           }
-          image={'/myn.png'}
+          image={'https://www.linkpicture.com/q/myn.png'}
         />
         <Divider horizontal>
           <Header inverted as="h4">

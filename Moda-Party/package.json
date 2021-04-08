@@ -1,5 +1,5 @@
 {
-  "name": "watchparty",
+  "name": "Modaparty",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -107,5 +107,9 @@
     "prettier": "2.0.5",
     "ts-node-dev": "^1.0.0",
     "typescript": "^4.1.3"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

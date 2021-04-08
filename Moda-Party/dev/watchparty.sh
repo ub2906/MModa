@@ -64,7 +64,7 @@ apt update
 apt install -y git
 
 # Clone application code
-git clone https://github.com/howardchung/watchparty
+git clone y
 
 # Install docker
 curl -sSL https://get.docker.com/ | sh
@@ -84,7 +84,8 @@ npm run build
 
 # Set .env config
 echo '
-DATABASE_URL=postgresql://postgres@localhost:5432/postgres?sslmode=disable
+DATABASE_URL= postgres://username:pgpassword@db:5432/mydatabase
+
 REDIS_URL=localhost:6379
 ' > .env
 

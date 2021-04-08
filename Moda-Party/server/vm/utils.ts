@@ -39,7 +39,7 @@ echo "Trying DNS lookup again..."
 done
     
 # Generate cert with letsencrypt
-certbot certonly --standalone -n --agree-tos --email howardzchung@gmail.com --domains ${host}
+certbot certonly --standalone -n --agree-tos --email practvp@gmail.com --domains ${host}
 chmod -R 755 /etc/letsencrypt/archive
 
 # start browser
@@ -51,7 +51,7 @@ docker run -d --rm --name=vbrowser -v /etc/letsencrypt:/etc/letsencrypt -v /usr/
 }" ${imageName}
 `;
 
-export const imageName = 'howardc93/vbrowser:latest';
+export const imageName = 'vp2705/vbrowser:latest';
 
 export const assignVM = async (
   redis: Redis.Redis,

@@ -3,7 +3,7 @@
 apt update
 
 DEBIAN_FRONTEND=noninteractive apt-get install -y certbot python3-certbot-dns-cloudflare
-certbot certonly --standalone -n --email howardzchung@gmail.com --agree-tos -d $(hostname).watchparty.me
+certbot certonly --standalone -n --email practvp@gmail.com --agree-tos -d $(hostname).watchparty.me
 #certbot certonly --dns-cloudflare --dns-cloudflare-credentials ~/cloudflare.ini -d *.watchparty.me --preferred-challenges dns-01
 
 apt install -y nginx

@@ -23,7 +23,6 @@ export class NewRoomButton extends React.Component<{ size?: string }> {
   render() {
     return (
       <Popup
-        content="Create a new room with a random URL that you can share with friends"
         trigger={
           <Button
             color="orange"
@@ -36,6 +35,29 @@ export class NewRoomButton extends React.Component<{ size?: string }> {
             <Icon name="certificate" />
             New Room
           </Button>
+        }
+      />
+    );
+  }
+}
+
+export class TagBoardButton extends React.Component<{ size?: string }> {
+  render() {
+    return (
+      <Popup
+        trigger={
+          <a href="https://miro.com/app/dashboard/">
+            <Button
+              color="orange"
+              size={this.props.size as any}
+              icon
+              labelPosition="left"
+              className="toolButton"
+            >
+              <Icon name="certificate" />
+              Tagboard
+            </Button>
+          </a>
         }
       />
     );
@@ -87,7 +109,6 @@ export class SignInButton extends React.Component<{
         )}
         <Popup
           basic
-          content="Sign in to set your name and picture, subscribe, or launch VBrowsers"
           trigger={
             <Dropdown
               style={{ height: '36px' }}
@@ -99,10 +120,6 @@ export class SignInButton extends React.Component<{
               fluid={this.props.fluid}
             >
               <Dropdown.Menu>
-                <Dropdown.Item onClick={this.facebookSignIn}>
-                  <Icon name="facebook" />
-                  Facebook
-                </Dropdown.Item>
                 <Dropdown.Item onClick={this.googleSignIn}>
                   <Icon name="google" />
                   Google
@@ -276,7 +293,7 @@ export class TopBar extends React.Component<{
               marginLeft: 'auto',
             }}
           >
-            {!this.props.hideNewRoom && <NewRoomButton />}
+            {<NewRoomButton />}
             {!this.props.hideMyRooms && this.props.user && (
               <ListRoomsButton user={this.props.user} />
             )}
