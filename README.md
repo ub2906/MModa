@@ -55,3 +55,8 @@ Our project consists of 5 subparts which are explained as follows
   - Using a dataset with paramenters such as age,gender,spending score it will help in forming clusters on people with similar interests
   - Makes in easier for users to conect with similar minded people
   - Code can be found in the *Clustering* folder in repository
+
+### Output
+![alt text](https://github.com/ub2906/MyntraModa/blob/main/Clustering/Screenshot%20(72).png)
+![alt text](https://github.com/ub2906/MyntraModa/blob/main/Clustering/Screenshot%20(73).png)
+
