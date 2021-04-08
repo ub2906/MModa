@@ -8,12 +8,12 @@
 * 200 rows with columns as CustomerID,Gender,Age,Annual Income (k$) and Spending Score (1-100)
 
 ## Description
--KSOM, an unsupervised learning neural network paradigm,does not require any pre classified data and can be efficiently used for data clustering applications,
+* KSOM, an unsupervised learning neural network paradigm,does not require any pre classified data and can be efficiently used for data clustering applications,
 high-dimensional data can be projected to a lower dimension and that data can be clustered together whilst preserving essential information
 
--In a self-organizing map, the information is associated with each hub, and the hubs structure a multidimensional cross-section over a space (ordinarily a two-dimensional lattice). 
+* n a self-organizing map, the information is associated with each hub, and the hubs structure a multidimensional cross-section over a space (ordinarily a two-dimensional lattice). 
 Nodes are competitive input and is taken care of each in turn, and the node that has the most grounded response to the info is proclaimed the “winning node” and gets the opportunity to assign its weight to the input and return that as yield. 
--This is known as a topographical map.
+* This is known as a topographical map.
 
 ### Output
 ![alt text](https://github.com/ub2906/MyntraModa/blob/main/Clustering/Screenshot%20(72).png)
