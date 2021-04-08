@@ -1,11 +1,11 @@
 # Clustering for Customer Segmentation
 
 
-Self-Organizing Map to create groups for our customer, the grouping would be based on a spending score(to be calculated using past purchase history of client) and also their age.
-Such groups can be created to help make the experience more collaborative by helping them engage with people with similar interests and spending habits.
+* Self-Organizing Map to create groups for our customer, the grouping would be based on a spending score(to be calculated using past purchase history of client) and also their age.
+* Such groups can be created to help make the experience more collaborative by helping them engage with people with similar interests and spending habits.
 
 ## Dataset
-200 rows with columns as CustomerID,Gender,Age,Annual Income (k$) and Spending Score (1-100)
+* 200 rows with columns as CustomerID,Gender,Age,Annual Income (k$) and Spending Score (1-100)
 
 ## Description
 -KSOM, an unsupervised learning neural network paradigm,does not require any pre classified data and can be efficiently used for data clustering applications,
