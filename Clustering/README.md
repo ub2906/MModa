@@ -15,7 +15,10 @@ high-dimensional data can be projected to a lower dimension and that data can be
 Nodes are competitive input and is taken care of each in turn, and the node that has the most grounded response to the info is proclaimed the “winning node” and gets the opportunity to assign its weight to the input and return that as yield. 
 -This is known as a topographical map.
 
-## Dataset
+### Output
+![alt text](https://github.com/ub2906/MyntraModa/blob/main/Clustering/Screenshot%20(72).png)
+![alt text](https://github.com/ub2906/MyntraModa/blob/main/Clustering/Screenshot%20(73).png)
+
 
 ## Quick Start
 Install the following Python Libraries using either conda or pip
