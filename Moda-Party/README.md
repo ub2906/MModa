@@ -1,22 +1,12 @@
-# WatchParty
+# ModaParty
 
-![screenshot](https://github.com/howardchung/watchparty/raw/master/public/screenshot_full.png)
 
-An website for watching videos together.
+A website to rediscover to collaborative shopping experience!
 
 ## Description
 
-- Synchronizes the video being watched with the current room
-- Plays, pauses, and seeks are synced to all watchers
-- Supports:
-  - Screen sharing (full screen, browser tab or application)
-  - Launch a shared virtual browser in the cloud (similar to rabb.it)
-  - Stream-your-own-file
-  - Video files on the Internet (anything accessible via HTTP)
-  - YouTube videos
-- Create separate rooms for users on demand
-- Text chat
-- Video chat
+The app provides a truly collaborative experience by providing the ability to create rooms, host voice and video calls.
+Users would be given the option to interact with their friends either in real time or later,they can interact asynchronously.
 
 ## Quick Start
 
@@ -32,19 +22,7 @@ An website for watching videos together.
 - Rename it to `.env`
 - Add config for the features you want as described in the advanced setup
 
-## Advanced Setup (optional)
 
-All of these are optional and the application should work without them. Some functionality may be missing.
-
-### YouTube API (video search)
-
-This project uses the YouTube API for video search, which requires an API key. You can get one from Google [here](https://console.developers.google.com).
-
-Without an API key you won't be able to search for videos via the searchbox.
-
-After creating a **YouTube Data API V3** access, you can create an API key which you can add to your environment variables by copying the `.env.example`, renaming it to `.env` and adding the key to the YOUTUBE_API_KEY variable.
-
-After that restart your server to enable the YouTube API access on your server.
 
 ### Firebase Config (user authentication)
 
@@ -56,20 +34,11 @@ Next, you have to stringify it: `JSON.stringify(PASTE_CONFIG_HERE)` in your brow
 
 For server verification of accounts you'll also need `FIREBASE_ADMIN_SDK_CONFIG`, which you should do the same steps for.
 
-### Virtual Browser Setup
-
-This project supports creating virtual browsers using several cloud providers, or by spawning Docker containers on the development server. For local development, the Docker on local approach is preferred.
-
-- Install Docker: `curl -fsSL https://get.docker.com | sh`
-- Make sure you have an SSH key pair set up on the server (`id_rsa` in `~/.ssh` directory)
-- Add `DOCKER_VM_HOST=localhost` to your .env file (can substitute localhost for a public hostname)
-- Add `NODE_ENV=development` to .env to enable create-on-demand behavior for VMs
-- Configure Redis by adding `REDIS_URL` to your .env file (Redis is required for virtual browser management)
 
 ## Tech
 
 - React
 - TypeScript
 - Node.js
-- Redis
-- Docker
+- Redis (to be implemented)
+- Docker(to be implemented)
