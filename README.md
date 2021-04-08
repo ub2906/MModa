@@ -7,7 +7,7 @@ This project aims to incorporate the feeling of Collaborative shopping online fo
 With the rise in the need for online shopping due to covid -19, people want to keep the feeling of roaming the shopping malls with friends intact. All this accompanied with the convenience of user,fitting in their busy schedules, providing an easy and interative way of shopping was kept in mind while making this project. 
 
 ## Components ##
-Our project consists of 4 subparts which are explained as follows
+Our project consists of 5 subparts which are explained as follows
 
 - MYNTRA MODA SITE 
   - This is the base website on which all the other features are integrated
@@ -21,12 +21,6 @@ Our project consists of 4 subparts which are explained as follows
    
   - Code can be found in the *clothing* folder in repository
 
-- KSOM CLUSTERING ALGORITHM
-  - Our Product does Clustering using KSOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete    delight! 
-  - Uses Kohonen's Self Organising Maps Algorithm to implement the clustering
-  - Using a dataset with paramenters such as age,gender,spending score it will help in forming clusters on people with similar interests
-  - Makes in easier for users to conect with similar minded people
-  - Code can be found in the *Clustering* folder in repository
 
 - VIRTUAL MODA
   - This is a 3D model of a shopping complex with various stores.
@@ -35,10 +29,29 @@ Our project consists of 4 subparts which are explained as follows
   - Made using HTML,CSS and JS this features gives a new boost to the UI of virtual shopping experience 
   - Code can be found in the *Virtaul-Moda* folder in repository
 
+
 - MODA APP
   - This is a chat room that allows you to connect with your friends and do shopping in an easy collaborative manner.
+  - Authentication using firebase api
   - You can create separate rooms for friends
   - Interact not only via text but also voice and video to make it much more fun for the users
   - Share Screen with friends for shopping together and have a wholesome collaborative experience.
   - Made using React,TypeScript,Node.js,Redis (to be implemented),Docker(to be implemented)
   - Code can be found in the *Moda-Party* folder in repository
+
+
+- TAGBOARDS
+  - These are provided to the users for posting their new and fourite clothes that they explored/bought from Myntra Moda app.
+  - This has been implemented by integrating miro-boards in the app
+  - Other users can add sticky post its to your post and comment/reply (there are some predefined/most common post its availaible too!)
+  - Users have the feature of video calls and screen share over here too 
+  - Voting polls can be created for getting everyone's opinion 
+  - Both public boards (on the main Myntra-Moda website) as well as private boards (links in separate chatrooms) for privacy purposes.
+
+
+- KSOM CLUSTERING ALGORITHM
+  - Our Product does Clustering using KSOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete    delight! 
+  - Uses Kohonen's Self Organising Maps Algorithm to implement the clustering
+  - Using a dataset with paramenters such as age,gender,spending score it will help in forming clusters on people with similar interests
+  - Makes in easier for users to conect with similar minded people
+  - Code can be found in the *Clustering* folder in repository
