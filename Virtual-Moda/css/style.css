@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'codropsicons';
+    font-family: 'virtualicons';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/codropsicons/codropsicons.eot');
-    src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+    src: url('../fonts/virtualicons/virtualicons.eot');
+    src: url('../fonts/virtualicons/virtualicons.eot?#iefix') format('embedded-opentype'), url('../fonts/virtualicons/virtualicons.woff') format('woff'), url('../fonts/virtualicons/virtualicons.ttf') format('truetype'), url('../fonts/virtualicons/virtualicons.svg#virtualicons') format('svg');
 }
 
 *,
@@ -76,7 +76,7 @@ button:focus {
 
 /* Header */
 
-.codrops-header {
+.virtual-header {
     position: absolute;
     z-index: 100;
     top: 0;
@@ -89,7 +89,7 @@ button:focus {
     text-align: center;
 }
 
-.codrops-header h1 {
+.virtual-header h1 {
     font-size: 1.15em;
     font-weight: normal;
     line-height: 1;
@@ -99,14 +99,14 @@ button:focus {
 
 /* Top Navigation Style */
 
-.codrops-links {
+.virtual-links {
     position: relative;
     display: inline-block;
     text-align: center;
     white-space: nowrap;
 }
 
-.codrops-links::after {
+.virtual-links::after {
     content: '';
     position: absolute;
     top: 0;
@@ -118,7 +118,7 @@ button:focus {
     transform: rotate3d(0, 0, 1, 22.5deg);
 }
 
-.codrops-icon {
+.virtual-icon {
     display: inline-block;
     width: 1.5em;
     margin: 0.5em;
@@ -126,12 +126,12 @@ button:focus {
     text-decoration: none;
 }
 
-.codrops-icon span {
+.virtual-icon span {
     display: none;
 }
 
-.codrops-icon::before {
-    font-family: 'codropsicons';
+.virtual-icon::before {
+    font-family: 'virtualicons';
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
@@ -141,12 +141,12 @@ button:focus {
     -webkit-font-smoothing: antialiased;
 }
 
-.codrops-icon--drop::before {
+.virtual-icon--drop::before {
     content: '\e001';
     color: #09c;
 }
 
-.codrops-icon--prev::before {
+.virtual-icon--prev::before {
     content: '\e004';
 }
 
@@ -1113,7 +1113,7 @@ screen and (max-height: 40.625em) {
     .content__item {
         overflow: auto;
     }
-    .codrops-header {
+    .virtual-header {
         padding-right: 4em;
         text-align: left;
     }
