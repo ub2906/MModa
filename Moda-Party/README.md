@@ -1,7 +1,7 @@
 # ModaParty
 
 
-A website to rediscover to collaborative shopping experience!
+A website to rediscover the collaborative shopping experience!
 
 ## Description
 
