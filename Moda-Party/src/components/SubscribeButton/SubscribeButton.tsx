@@ -16,7 +16,6 @@ export const SubscribeButton = ({
     <>
       {!isSubscriber && (
         <Popup
-          content="Subscribe to help support us and enable additional features!"
           trigger={
             <Button
               fluid
@@ -34,7 +33,6 @@ export const SubscribeButton = ({
       )}
       {isSubscriber && (
         <Popup
-          content="Manage your subscription"
           trigger={
             <Button
               fluid

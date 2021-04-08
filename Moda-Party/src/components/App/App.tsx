@@ -1504,7 +1504,6 @@ export default class App extends React.Component<AppProps, AppState> {
                     )}
                     {!this.screenShareStream && !sharer && !this.isVBrowser() && (
                       <Popup
-                        content={`Share a tab or an application. Make sure to check "Share audio" for best results.`}
                         trigger={
                           <Button
                             fluid
@@ -1608,7 +1607,6 @@ export default class App extends React.Component<AppProps, AppState> {
                     )}
                     {this.state.currentMedia && (
                       <Popup
-                        content="Upload a .srt subtitle file for this video"
                         trigger={
                           <Button
                             fluid
@@ -1670,7 +1668,6 @@ export default class App extends React.Component<AppProps, AppState> {
                                 color="red"
                                 icon="frown"
                                 header="It doesn't look like this is a media file!"
-                                content="Maybe you meant to launch a VBrowser if you're trying to visit a web page?"
                               />
                             )}
                         </div>
