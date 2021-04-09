@@ -99,10 +99,6 @@ export class SignInButton extends React.Component<{
               fluid={this.props.fluid}
             >
               <Dropdown.Menu>
-                <Dropdown.Item onClick={this.facebookSignIn}>
-                  <Icon name="facebook" />
-                  Facebook
-                </Dropdown.Item>
                 <Dropdown.Item onClick={this.googleSignIn}>
                   <Icon name="google" />
                   Google

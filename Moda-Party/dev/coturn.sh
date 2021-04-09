@@ -9,6 +9,6 @@ docker run -d --network=host --name=coturn instrumentisto/coturn \
   --lt-cred-mech --fingerprint \
   --no-multicast-peers --no-cli \
   --no-tlsv1 --no-tlsv1_1 \
-  --realm=watchparty \
-docker exec -it coturn 'sh -c turnadmin --add -u username -p password -r watchparty'
+  --realm=ModaParty \
+docker exec -it coturn 'sh -c turnadmin --add -u username -p password -r ModaParty'
 

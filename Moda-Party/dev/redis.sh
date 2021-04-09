@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run --name watchparty-redis --rm --net=host -d redis
+docker run --name watchModaPartyparty-redis --rm --net=host -d redis
