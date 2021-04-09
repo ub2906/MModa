@@ -9,7 +9,7 @@ With the rise in the need for online shopping due to covid -19, people want to k
 ## Components ##
 Our project consists of 5 subparts which are explained as follows
 
-- #### MYNTRA MODA SITE ####
+- #### [MYNTRA MODA SITE](https://github.com/ub2906/MyntraModa/tree/main/clothing) ####
   - This is the base website on which all the other features are integrated
   - Made using React js, this is a cross-platform web app. Which helps in putting every component at one place 
   - Features/Components of Myntra Moda 
@@ -22,7 +22,7 @@ Our project consists of 5 subparts which are explained as follows
   - Code can be found in the *clothing* folder in repository
 
 
-- #### VIRTUAL MODA ####
+- #### [VIRTUAL MODA](https://github.com/ub2906/MyntraModa/tree/main/Virtual-Moda) ####
   - This is a 3D model of a shopping complex with various stores.
   - All the stores are level wise distributed in the shopping complex - as one would experience in any ordinary offline mall
   - Gives a real life experience to the users in a muchc less tiresome manner!
@@ -30,7 +30,7 @@ Our project consists of 5 subparts which are explained as follows
   - Code can be found in the *Virtaul-Moda* folder in repository
 
 
-- #### MODA APP ####
+- #### MODA APP(https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) ####
   - This is a chat room that allows you to connect with your friends and do shopping in an easy collaborative manner.
   - Authentication using firebase api
   - You can create separate rooms for friends
@@ -49,8 +49,8 @@ Our project consists of 5 subparts which are explained as follows
   - Both public boards (on the main Myntra-Moda website) as well as private boards (links in separate chatrooms) for privacy purposes.
 
 
-- #### KSOM CLUSTERING ALGORITHM ####
-  - Our Product does Clustering using KSOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete    delight! 
+- #### [SOM CLUSTERING ALGORITHM](https://github.com/ub2906/MyntraModa/tree/main/Clustering)####
+  - Our Product does Clustering using SOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete    delight! 
   - Uses Kohonen's Self Organising Maps Algorithm to implement the clustering
   - Using a dataset with paramenters such as age,gender,spending score it will help in forming clusters on people with similar interests
   - Makes in easier for users to conect with similar minded people
