@@ -33,4 +33,4 @@ Similar steps for `FIREBASE_ADMIN_SDK_CONFIG`.
 
 
 ## Tech
-- React, TypeScripts, Docker, Redis
+- React, TypeScripts, Docker, Firebase, Redis
