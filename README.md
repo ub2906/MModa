@@ -1,6 +1,6 @@
 # MyntraModa
 
-This project aims to incorporate the feeling of Collaborative shopping online for the users.The project revolves around letting the users asynchronously shop with their friends online with the help of our MODA PARTY feature that helps you chat as well as viseo call with your friends in separate rooms while sharing screen and deciding on your outfits while buying them. The VIRTUAL MALL feature has been added to give a 3D view of the shopping complex and letting people not onlychode the store they want to go to but also any particular category of clothes they want to try just in one go! All of this is facilitated with our TAGBOARDS where you can post your favourite findings and read other user's comments on those to even further enhance your ahopping experience. 
+This project aims to incorporate the feeling of Collaborative shopping online for the users.The project revolves around letting the users asynchronously shop with their friends online with the help of our [MODA PARTY](https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) feature that helps you chat as well as video call with your friends in separate rooms while sharing screen and deciding on your outfits while buying them. The [VIRTUAL MALL]((https://github.com/ub2906/MyntraModa/tree/main/Virtual-Moda)) feature has been added to give a 3D view of the shopping complex and letting people not onlychode the store they want to go to but also any particular category of clothes they want to try just in one go! All of this is facilitated with our TAGBOARDS where you can post your favourite findings and read other user's comments on those to even further enhance your shopping experience. 
 
 ### OUR BELIEFS ###
 
@@ -50,8 +50,9 @@ Our project consists of 5 subparts which are explained as follows
 
 
 - #### [SOM CLUSTERING ALGORITHM](https://github.com/ub2906/MyntraModa/tree/main/Clustering) ####
-  - Our Product does Clustering using SOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete    delight! 
-  - Uses Kohonen's Self Organising Maps Algorithm to implement the clustering
+  - Our Product aims to provide the customers a customized experience by helping them interact with other customer who have similar taste.
+  - To implement this we do Clustering using SOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete delight! 
+  - UsesSelf Organising Maps Algorithm to implement the clustering
   - Using a dataset with paramenters such as age,gender,spending score it will help in forming clusters on people with similar interests
   - Makes in easier for users to conect with similar minded people
   - Code can be found in the *Clustering* folder in repository
