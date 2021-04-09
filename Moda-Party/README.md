@@ -28,8 +28,8 @@ To set up, create a new Firebase app (or reuse an old one) from [here](https://c
 Similar steps for `FIREBASE_ADMIN_SDK_CONFIG`.
 
 ### Output
-![alt text](https://github.com/pracvp/Moda/blob/main/Screenshot%20(75).png)
-![alt text](https://github.com/pracvp/Moda/blob/main/Screenshot%20(76).png)
+![alt text](https://github.com/pracvp/Moda/blob/main/ss3.png)
+![alt text](https://github.com/pracvp/Moda/blob/main/ss2.png)
 
 
 ## Tech
