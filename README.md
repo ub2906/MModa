@@ -30,7 +30,7 @@ Our project consists of 5 subparts which are explained as follows
   - Code can be found in the *Virtaul-Moda* folder in repository
 
 
-- #### [MODA APP] (https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) ####
+- #### [MODA APP](https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) ####
   - This is a chat room that allows you to connect with your friends and do shopping in an easy collaborative manner.
   - Authentication using firebase api
   - You can create separate rooms for friends
@@ -49,7 +49,7 @@ Our project consists of 5 subparts which are explained as follows
   - Both public boards (on the main Myntra-Moda website) as well as private boards (links in separate chatrooms) for privacy purposes.
 
 
-- #### [SOM CLUSTERING ALGORITHM](https://github.com/ub2906/MyntraModa/tree/main/Clustering)####
+- #### [SOM CLUSTERING ALGORITHM](https://github.com/ub2906/MyntraModa/tree/main/Clustering) ####
   - Our Product does Clustering using SOM based on Preferences,Age,Country and other Demographic and spending data to make your shopping experience a complete    delight! 
   - Uses Kohonen's Self Organising Maps Algorithm to implement the clustering
   - Using a dataset with paramenters such as age,gender,spending score it will help in forming clusters on people with similar interests
