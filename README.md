@@ -67,4 +67,7 @@ Our project consists of 5 subparts which are explained as follows
   - Code can be found in the *Clustering* folder in repository
 
 - #### [STYLE QUIZ](https://github.com/ub2906/MyntraModa/tree/main/style-quiz) ####
+  -  A simple and short quiz which helps you identify your fashion style basis some interesting question.
+
+
 
