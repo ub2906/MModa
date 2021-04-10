@@ -1,11 +1,8 @@
 
 # Style Quiz
 
-
-A website to rediscover the collaborative shopping experience!
-
 ## Description
-
+A simple and short script which helps you identify your fashion style basis some interesting question.
 
 ## Quick Start
 
@@ -13,16 +10,8 @@ A website to rediscover the collaborative shopping experience!
 - Install npm dependencies for the project via `npm install`
 - Start the server via `npm run install`
 
-
-
-
-### Firebase Config (user authentication)
-
-
-
-### Output
-
-
-
 ## Tech
-
+  > HTML
+  > CSS
+  > NodeJS
+  > React Redux
