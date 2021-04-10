@@ -1,4 +1,4 @@
-# MyntraModa
+# M_Moda
 
 This project aims to incorporate the feeling of Collaborative shopping online for the users.The project revolves around letting the users asynchronously shop with their friends online with the help of our [MODA PARTY](https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) feature that helps you chat as well as video call with your friends in separate rooms while sharing screen and deciding on your outfits while buying them. The [VIRTUAL MALL](https://github.com/ub2906/MyntraModa/tree/main/Virtual-Moda) feature has been added to give a 3D view of the shopping complex and letting people not onlychode the store they want to go to but also any particular category of clothes they want to try just in one go! All of this is facilitated with our TAGBOARDS where you can post your favourite findings and read other user's comments on those to even further enhance your shopping experience. 
 
@@ -18,7 +18,7 @@ These commands would launch the project on your local host
 ## Components ##
 Our project consists of 5 subparts which are explained as follows
 
-- #### [MYNTRA MODA SITE](https://github.com/ub2906/MyntraModa/tree/main/clothing) ####
+- #### [M_MODA SITE](https://github.com/ub2906/MyntraModa/tree/main/clothing) ####
   - This is the base website on which all the other features are integrated
   - Made using React js, this is a cross-platform web app. Which helps in putting every component at one place 
   - Features/Components of Myntra Moda 
