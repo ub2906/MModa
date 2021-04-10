@@ -2,6 +2,11 @@
 
 This project aims to incorporate the feeling of Collaborative shopping online for the users.The project revolves around letting the users asynchronously shop with their friends online with the help of our [MODA PARTY](https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) feature that helps you chat as well as video call with your friends in separate rooms while sharing screen and deciding on your outfits while buying them. The [VIRTUAL MALL](https://github.com/ub2906/MyntraModa/tree/main/Virtual-Moda) feature has been added to give a 3D view of the shopping complex and letting people not onlychode the store they want to go to but also any particular category of clothes they want to try just in one go! All of this is facilitated with our TAGBOARDS where you can post your favourite findings and read other user's comments on those to even further enhance your shopping experience. 
 
+
+### OUR BELIEFS ###
+
+With the rise in the need for online shopping due to covid -19, people want to keep the feeling of roaming the shopping malls with friends intact. All this accompanied with the convenience of user,fitting in their busy schedules, providing an easy and interative way of shopping was kept in mind while making this project. 
+
 ### GETTING STARTED ###
 
 1. Clone the github repository via  ' git clone https://github.com/ub2906/MyntraModa.git '
@@ -9,10 +14,6 @@ This project aims to incorporate the feeling of Collaborative shopping online fo
 3. rum npm start
 
 These commands would launch the project on your local host
-
-### OUR BELIEFS ###
-
-With the rise in the need for online shopping due to covid -19, people want to keep the feeling of roaming the shopping malls with friends intact. All this accompanied with the convenience of user,fitting in their busy schedules, providing an easy and interative way of shopping was kept in mind while making this project. 
 
 ## Components ##
 Our project consists of 5 subparts which are explained as follows
