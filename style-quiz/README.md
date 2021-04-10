@@ -2,7 +2,7 @@
 # Style Quiz
 
 ## Description
-A simple and short script which helps you identify your fashion style basis some interesting question.
+A simple and short quiz which helps you identify your fashion style basis some interesting question.
 
 ## Quick Start
 
