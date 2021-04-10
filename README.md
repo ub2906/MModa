@@ -39,7 +39,7 @@ Our project consists of 5 subparts which are explained as follows
   - Code can be found in the *Virtaul-Moda* folder in repository
 
 
-- #### [MODA APP](https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) ####
+- #### [MODA PARTY APP](https://github.com/ub2906/MyntraModa/tree/main/Moda-Party) ####
   - This is a chat room that allows you to connect with your friends and do shopping in an easy collaborative manner.
   - Authentication using firebase api
   - You can create separate rooms for friends
