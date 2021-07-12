@@ -5,6 +5,7 @@
 * This is a 3D model of a shopping complex with various stores. 
 * All the stores are levl wise distributed in the sjopping complex - as one would experience in any ordinary offline mall
 * Gives a real life experience to the users in a muchc less tiresome manner!
+* check it out here - https://virtualmall.netlify.app/
 
 ### Features ###
 
